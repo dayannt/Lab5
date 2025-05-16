@@ -21,7 +21,7 @@ class ProductCard extends HTMLElement {
         const image = this.getAttribute('image');
         this.shadowRoot.innerHTML = `
         <style>
-            /* Para crear el contenedor horizontal, aplica estos estilos al elemento padre */
+          
             :host-context(.products-container) {
                 display: flex;
                 flex-direction: row;
